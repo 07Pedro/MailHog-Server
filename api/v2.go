@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/07Pedro/MailHog-Server/config"
 	"github.com/07Pedro/MailHog-Server/monkey"
 	"github.com/07Pedro/MailHog-Server/websockets"
 	"github.com/gorilla/pat"
 	"github.com/ian-kent/go-log/log"
+	"github.com/mailhog/MailHog-Server/config"
 	"github.com/mailhog/data"
 )
 
